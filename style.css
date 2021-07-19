@@ -52,12 +52,17 @@ a:hover {
     padding: 50px;
 }
 
-.com {
+.sous-titre {
     font-size: 22px;
-    width: 60%;ch   
+    width: 75%;
+    margin: auto;   
 }
-.nom {
-    font-size: 15px;
+.com {
+    font-size: 20px;
+}
+
+.info {
+    font-size: 16px;
 }
 
 .bloc-sm {
@@ -101,6 +106,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: rgba(30, 30, 30, .7);
 }
 
 .b-parallax {
@@ -685,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -779,20 +785,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D1474D;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #D1474D;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #D1474D!important;
     color: #FFFFFF!important;
 }
 
@@ -805,11 +811,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #D1474D!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #D1474D!important;
 }
 
 .icon-dark-slate-blue {
@@ -830,8 +836,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
+
+ 
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -924,6 +933,7 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+
     }
     .site-navigation {
         position: inherit;
@@ -1017,7 +1027,6 @@ h4 {
     }
     .voffset-lg {
         margin-top: 30px;
-        border: 3px solid red;
     }
     form {
         padding: 5px;

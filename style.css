@@ -867,6 +867,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .row .row-no-gutters {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -876,11 +880,20 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .row .row-no-gutters {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .row .row-no-gutters {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -913,6 +926,11 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
 
+    }
+
+    .row .row-no-gutters {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -1064,7 +1082,7 @@ h4 {
 
     .row .row-no-gutters {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     .social {
         font-size: 10px;
@@ -1077,6 +1095,12 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        display: flex;
         text-align: center;
+    }
+
+    .row .row-no-gutters {
+        display: flex;
+        justify-content: space-between;
     }
 }
